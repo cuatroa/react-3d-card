@@ -72,8 +72,8 @@ export function ShoesDetails(props) {
     <DetailsContainer>
       <SmallText>NIKE</SmallText>
       <SpacedHorizontalContainer>
-        <MediumText>AIR JORDAN 1 MID SE GC</MediumText>
-        <MediumText>¥856</MediumText>
+        <MediumText>Nike MAG Back to the Future</MediumText>
+        <MediumText>€1.500</MediumText>
       </SpacedHorizontalContainer>
       <Marginer direction="vertical" margin="1.2em" />
       <SpacedHorizontalContainer>
@@ -81,7 +81,7 @@ export function ShoesDetails(props) {
         <BuyButton>BUY</BuyButton>
       </SpacedHorizontalContainer>
       <NikeLogo>
-        <img src={NikeImg} />
+        <img src={NikeImg} alt="nike logo"/>
       </NikeLogo>
     </DetailsContainer>
   );
